@@ -6,10 +6,11 @@ const {
 	updatePizza,
 	deletePizza,
 } = require('../../controllers/pizza-controller');
-// set up GET all and POST at /api/pizzas
+
+// /api/pizzas
 router.route('/').get(getAllPizza).post(createPizza);
 
-//set up GET on, PUT and DELETE at /api/pizzas/:id
-router.route('/').get(getPizzaById).put(updatePizza).delete(deletePizza);
+// /api/pizzas/:id
+router.route('/:id').get(getPizzaById).put(updatePizza).delete(deletePizza);
 
 module.exports = router;
