@@ -1,0 +1,14 @@
+db.pizzas.update({ createdBy: "New Haven" },
+{
+    "pizzaName": "Pittsburger",
+    "toppings": [
+        "Ground Beef",
+        "Cheddar Cheese",
+        "Chopped Onions"
+    ]
+
+},
+{
+    upsert: true
+}
+)
