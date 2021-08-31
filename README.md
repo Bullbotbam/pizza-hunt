@@ -10,8 +10,6 @@
   - [License](#license)
   - [Contributing](#contributing)
   - [Issues](#issues)
-  - [Tests](#tests)
-  - [Links](#links)
   ## Description
    This is a program that allows someone to create, edit and reply a other users who are interested in pizza.This web app uses Express.js and MongoDB.
   ## Installation
@@ -34,9 +32,3 @@ With support and assistance from the developer community at large.
 ## Issues
 
 None at this time
-
-## Testing
-
-None at this time
-
-## Links
