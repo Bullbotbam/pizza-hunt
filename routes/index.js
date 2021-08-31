@@ -8,7 +8,7 @@ router.use('/api', apiRoutes);
 router.use('/', htmlRoutes);
 
 router.use((req, res) => {
-	res.status(404).send('<h1>😝  404Errormon!</h1>');
+	res.status(404).send('<h1> 404Err, errie, error!</h1>');
 });
 
 module.exports = router;
